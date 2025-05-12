@@ -90,8 +90,8 @@ def dataset_info(dataset_name, is_linux=True):
                 'yita': 0.5
             },
             'CLASSIC': {
-                'img_height': 512,
-                'img_width': 512,
+                'img_height': 1920,
+                'img_width': 1072,
                 'test_list': None,
                 'train_list': None,
                 'data_dir': 'data',  # mean_rgb

@@ -208,7 +208,7 @@ def parse_args():
     is_testing =True#  current test -352-SM-NewGT-2AugmenPublish
 
     # Training settings
-    TRAIN_DATA = DATASET_NAMES[0] # BIPED=0, MDBD=6
+    TRAIN_DATA = DATASET_NAMES[6] # BIPED=0, MDBD=6
     train_inf = dataset_info(TRAIN_DATA, is_linux=IS_LINUX)
     train_dir = train_inf['data_dir']
 
